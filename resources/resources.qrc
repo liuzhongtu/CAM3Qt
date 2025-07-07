@@ -1,0 +1,58 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/fluent.qss</file>
+	    <file>styles/table.qss</file>
+        <file>styles/light.qss</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <!-- Application Icons -->
+        <file alias="app_icon.png">icons/app_icon.png</file>
+        
+        <!-- File Type Icons -->
+        <file alias="folder.png">icons/folder.png</file>
+        <file alias="cpp.png">icons/cpp.png</file>
+        <file alias="css.png">icons/css.png</file>
+        <file alias="markdown_file.png">icons/markdown_file.png</file>
+        
+        <!-- Tool Icons -->
+        <file alias="rotate.png">icons/rotate.png</file>
+        <file alias="zoom.png">icons/zoom.png</file>
+        <file alias="reset.png">icons/reset.png</file>
+        <file alias="wireframe.png">icons/wireframe.png</file>
+        <file alias="solid.png">icons/solid.png</file>
+        
+        <!-- Ribbon Icons -->
+        <file alias="paste.png">icons/paste.png</file>
+        <file alias="copy.png">icons/copy.png</file>
+        <file alias="cut.png">icons/cut.png</file>
+        <file alias="bold.png">icons/bold.png</file>
+        <file alias="italic.png">icons/italic.png</file>
+        <file alias="underline.png">icons/underline.png</file>
+        <file alias="left.png">icons/align_left.png</file>
+        <file alias="center.png">icons/align_center.png</file>
+        <file alias="right.png">icons/align_right.png</file>
+        <file alias="table.png">icons/table.png</file>
+        <file alias="chart.png">icons/chart.png</file>
+        <file alias="graph.png">icons/graph.png</file>
+        <file alias="picture.png">icons/picture.png</file>
+        <file alias="shape.png">icons/shape.png</file>
+        <file alias="icon.png">icons/icon.png</file>
+        <file alias="ruler.png">icons/ruler.png</file>
+        <file alias="grid.png">icons/grid.png</file>
+        <file alias="guides.png">icons/guides.png</file>
+        <file alias="zoom_in.png">icons/zoom_in.png</file>
+        <file alias="zoom_out.png">icons/zoom_out.png</file>
+        <file alias="fit.png">icons/fit.png</file>
+        
+        <!-- Window Icons -->
+        <file alias="close.png">icons/close.png</file>
+        <file alias="float.png">icons/float.png</file>
+        
+        <!-- Tree Icons -->
+        <file alias="vline.png">icons/vline.png</file>
+        <file alias="branch_more.png">icons/branch_more.png</file>
+        <file alias="branch_end.png">icons/branch_end.png</file>
+        <file alias="branch_closed.png">icons/branch_closed.png</file>
+        <file alias="branch_open.png">icons/branch_open.png</file>
+    </qresource>
+</RCC>

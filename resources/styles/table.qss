@@ -1,0 +1,144 @@
+/* Table Widget Styles */
+#DataTable {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 rgba(255, 255, 255, 0.05), stop:1 rgba(255, 255, 255, 0.02));
+    border: none;
+    border-radius: 8px;
+    color: #e0e0e0;
+    font-size: 9pt;
+    gridline-color: rgba(255, 255, 255, 0.08);
+    selection-background-color: rgba(0, 212, 255, 0.2);
+    alternate-background-color: rgba(255, 255, 255, 0.01);
+}
+
+/* Table Items */
+#DataTable::item {
+    padding: 10px 8px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+#DataTable::item:selected {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 rgba(0, 212, 255, 0.25), stop:1 rgba(91, 99, 247, 0.15));
+    color: #ffffff;
+    border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+#DataTable::item:hover {
+    background: rgba(0, 212, 255, 0.08);
+}
+
+/* Header Styles */
+QTableWidget#DataTable QHeaderView {
+    background: transparent;
+    border: none;
+}
+
+QTableWidget#DataTable QHeaderView::section {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 rgba(0, 212, 255, 0.15), stop:1 rgba(91, 99, 247, 0.08));
+    color: #ffffff;
+    padding: 12px 8px;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+    font-weight: 700;
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+QTableWidget#DataTable QHeaderView::section:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 rgba(0, 212, 255, 0.25), stop:1 rgba(91, 99, 247, 0.12));
+    border-bottom: 2px solid #00d4ff;
+}
+
+QTableWidget#DataTable QHeaderView::section:first {
+    border-left: none;
+    border-top-left-radius: 8px;
+}
+
+QTableWidget#DataTable QHeaderView::section:last {
+    border-right: none;
+    border-top-right-radius: 8px;
+}
+
+/* Vertical Header (Row Numbers) */
+QTableWidget#DataTable QHeaderView::section:vertical {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 rgba(255, 255, 255, 0.1), stop:1 rgba(255, 255, 255, 0.05));
+    color: #b0b0b0;
+    border-right: 2px solid rgba(0, 212, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-weight: 600;
+    min-width: 40px;
+}
+
+/* Corner Button */
+QTableWidget#DataTable QTableCornerButton::section {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 rgba(0, 212, 255, 0.2), stop:1 rgba(91, 99, 247, 0.1));
+    border: none;
+    border-right: 2px solid rgba(0, 212, 255, 0.2);
+    border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+    border-top-left-radius: 8px;
+}
+
+/* Table Toolbar Styles */
+#TableToolBar {
+    background: transparent;
+    border: none;
+    spacing: 2px;
+}
+
+#TableToolBar QToolButton {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 4px;
+    margin: 1px;
+    color: #ffffff;
+}
+
+#TableToolBar QToolButton:hover {
+    background: rgba(0, 212, 255, 0.2);
+    border: 1px solid #00d4ff;
+    color: #00d4ff;
+}
+
+/* Light Theme Table Styles */
+QWidget[lightTheme="true"] #DataTable {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 rgba(0, 0, 0, 0.02), stop:1 rgba(0, 0, 0, 0.01));
+    color: #2c3e50;
+    gridline-color: rgba(0, 0, 0, 0.05);
+    selection-background-color: rgba(52, 152, 219, 0.15);
+}
+
+QWidget[lightTheme="true"] #DataTable::item:selected {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 rgba(52, 152, 219, 0.15), stop:1 rgba(41, 128, 185, 0.1));
+    color: #2c3e50;
+    border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+QWidget[lightTheme="true"] #DataTable::item:hover {
+    background: rgba(52, 152, 219, 0.05);
+}
+
+QWidget[lightTheme="true"] #DataTable QHeaderView::section {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 rgba(52, 152, 219, 0.1), stop:1 rgba(41, 128, 185, 0.05));
+    color: #2c3e50;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid rgba(52, 152, 219, 0.2);
+}
+
+QWidget[lightTheme="true"] #DataTable QHeaderView::section:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 rgba(52, 152, 219, 0.15), stop:1 rgba(41, 128, 185, 0.08));
+    border-bottom: 2px solid #3498db;
+}
