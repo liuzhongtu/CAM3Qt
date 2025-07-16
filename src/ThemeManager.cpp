@@ -18,7 +18,7 @@ ThemeManager* ThemeManager::instance()
 ThemeManager::ThemeManager(QObject* parent)
 	: QObject(parent)
 	, m_currentTheme(Theme::Dark)
-	, m_settings(new QSettings("FluentQtApp", "Theme", this))
+	, m_settings(new QSettings("CAM3", "Theme", this))
 {
 	loadTheme();
 }

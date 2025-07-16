@@ -1,0 +1,183 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
+
+# Qt related
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# Qt Creator
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+CMakeLists.txt.user*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+*.cmake
+!CMakeLists.txt
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcproj
+*.sdf
+*.opensdf
+*.suo
+*.ncb
+*.aps
+x64/
+x86/
+Debug/
+Release/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Executables
+*.exe
+*.out
+*.app
+CAM3
+CAM3.exe
+
+# Object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.lai
+*.la
+*.lo
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+*.ipch
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+
+# Qt Design Studio
+*.qmlproject
+*.qmlproject.*
+*.qtds
+
+# Qt Linguist
+*.ts
+
+# Documentation
+doc/html/
+doc/latex/
+Doxyfile*
+
+# Python (if any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# IDE project files
+*.cbp
+*.layout
+*.depend
+
+# Misc
+.history/
+.cache/
+*.orig
+*.rej
+core
+vgcore.*
+callgrind.out.*

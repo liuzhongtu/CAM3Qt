@@ -723,8 +723,8 @@ void MainWindow::onExit()
 
 void MainWindow::onAbout()
 {
-	QMessageBox::about(this, "About FluentQtApp",
-		"FluentQtApp v1.0.0\n\n"
+	QMessageBox::about(this, "About CAM3",
+		"CAM3 v1.0.0\n\n"
 		"A modern Qt application with Fluent Design style\n"
 		"Features:\n"
 		"• Ribbon interface with Backstage\n"

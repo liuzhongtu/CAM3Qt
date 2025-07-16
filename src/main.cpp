@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	QApplication app(argc, argv);
 
 	// Set application properties
-	app.setApplicationName("FluentQtApp");
+	app.setApplicationName("CAM3");
 	app.setApplicationVersion("1.0.0");
 	app.setOrganizationName("FluentDesign");
 

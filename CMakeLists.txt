@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(FluentQtApp VERSION 1.0.0 LANGUAGES CXX)
+project(CAM3 VERSION 1.0.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -34,10 +34,10 @@ set(RESOURCES
 )
 
 # Create executable
-add_executable(FluentQtApp ${SOURCES} ${HEADERS} ${RESOURCES})
+add_executable(CAM3 ${SOURCES} ${HEADERS} ${RESOURCES})
 
 # Link Qt libraries
-target_link_libraries(FluentQtApp
+target_link_libraries(CAM3
     Qt6::Core
     Qt6::Widgets
     Qt6::OpenGL
@@ -45,7 +45,7 @@ target_link_libraries(FluentQtApp
 )
 
 # Set target properties
-set_target_properties(FluentQtApp PROPERTIES
+set_target_properties(CAM3 PROPERTIES
     WIN32_EXECUTABLE TRUE
     MACOSX_BUNDLE TRUE
 )
